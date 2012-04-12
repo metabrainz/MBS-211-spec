@@ -53,10 +53,10 @@ Create an entity.
 
 NOTE: for backward compatibility, /ws/2/recording/ and /ws/2/release/
 will also accept ISRC and barcode submits to this url using a POST
-request.  The body of these requests contain a <recording-list> or
-<release-list>, and are thus easily distinguished from proper requests
-to this resource which would just have a single <recording> or
-<release> element as child of <metadata>.
+request.  The body of these requests contain a *recording-list* or
+*release-list*, and are thus easily distinguished from proper requests
+to this resource which would just have a single *recording* or
+*release* element as child of *metadata*.
 
 ref: http://wiki.musicbrainz.org/XML_Web_Service/Version_2#Submitting_data
 
@@ -87,6 +87,7 @@ Read, Update or Delete an entity.
 #### Accepted Methods
 
 - PUT
+- DELETE
 - HEAD
 
 #### Responses
